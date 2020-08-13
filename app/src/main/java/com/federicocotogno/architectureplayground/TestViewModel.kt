@@ -3,7 +3,8 @@ package com.federicocotogno.architectureplayground
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-//must never reference a view
+//must never reference a view.
+//
 
 class TestViewModel : ViewModel() {
     //create a list of users
